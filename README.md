@@ -57,10 +57,7 @@ gcloud services enable cloudfunctions.googleapis.com \
    - Machine type: f1-micro
    - Network settings: Allow HTTP/HTTPS traffic
 
-2. Configure VPC Network
-   - Name: `weather-vm-ip`
-
-3. Setup Cloud SQL
+2. Setup Cloud SQL
 
    - Engine: MySQL 8.0
    - Instance ID: `weather-db`
@@ -177,3 +174,6 @@ CREATE TABLE IF NOT EXISTS weather_data (
      ```sql
      CONCAT(lat,",",lon)
      ```
+
+### Notes
+The setup above is only for tutorial purposes. In a real-world scenario, you would need to setup a proper VPC network and do a better configuration of the Cloud instance.
