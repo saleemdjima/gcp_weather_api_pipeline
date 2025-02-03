@@ -10,7 +10,7 @@ This project sets up an automated weather data pipeline using various GCP servic
 
 ## Architecture
 
-![Architecture Diagram](/image/Architecture.png)
+![Architecture Diagram](/image/architecture.png)
 
 ## Setup Instructions
 
